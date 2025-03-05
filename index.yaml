@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  engine-x:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2025-03-05T22:35:23.959234193Z"
+    description: A Helm chart for Kubernetes
+    digest: 3e2bc6a04364bfcd1af4a1673dca66cfed11be4881805ae6b0872148d5a75cf2
+    name: engine-x
+    urls:
+    - https://github.com/fanny-jiang/elm-charts/releases/download/engine-x-1.0.1/engine-x-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-03-05T22:35:23.959240505Z"
