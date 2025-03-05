@@ -1,4 +1,4 @@
 image:
   repository: nginx
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: latest
