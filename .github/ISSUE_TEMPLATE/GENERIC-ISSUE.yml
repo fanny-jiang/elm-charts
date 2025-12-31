@@ -38,7 +38,7 @@ body:
     attributes:
       label: Helm chart version
       description: Version(s) of the Helm chart affected by this bug
-      placeholder: "e.g., 3.45.0"
+      placeholder: "3.X.Y"
     validations:
       required: true
 
@@ -74,9 +74,9 @@ body:
       label: Environment
       description: Kubernetes version, cloud provider, Helm version, etc.
       value: |
-        **Kubernetes:**
-        **Cloud:**
-        **Helm:**
+        **Kubernetes version: **
+        **Helm version: **
+        **Cloud provider: **
     validations:
       required: false
 
