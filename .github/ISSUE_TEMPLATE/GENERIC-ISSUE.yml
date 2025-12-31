@@ -49,10 +49,10 @@ body:
       description: What happened and what did you expect?
       value: |
         **What happened:**
-        /* Describe the issue... */
+        <!-- Describe the issue... -->
 
         **What I expected:**
-        /* Describe expected behavior... */
+        <!-- Describe expected behavior... -->
     validations:
       required: true
 
