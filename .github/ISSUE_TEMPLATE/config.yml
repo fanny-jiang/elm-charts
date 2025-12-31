@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support Request or Feature Request (recommended)
+    url: https://help.datadoghq.com/hc/en-us/requests/new?tf_1260824651490=pt_product_type:containers
+    about: Click this option to create a Support Ticket or Feature Request via the helpdesk (no login required). Problems involving configuration, integrations, Kubernetes workloads, crashes, missing metrics, or anything that needs logs/flares should go through Datadog Support for optimal processing. This will allow us to look up your account and allows you to provide additional information in private.
