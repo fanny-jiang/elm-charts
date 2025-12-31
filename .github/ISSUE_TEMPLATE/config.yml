@@ -2,6 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Support Request or Feature Request (recommended)
     url: https://help.datadoghq.com/hc/en-us/requests/new?tf_1260824651490=pt_product_type:containers
-    about: Recommended for most issues. No login required. Share logs privately and get faster, personalized support for configuration or debugging problems.
-
-    # about: Click this option to create a Support Ticket or Feature Request via the helpdesk (no login required). Problems involving configuration, integrations, Kubernetes workloads, crashes, missing metrics, or anything that needs logs/flares should go through Datadog Support for optimal processing. This will allow us to look up your account and allows you to provide additional information in private.
+    about: Recommended for most issues. No login required. Best for configuration problems, crashes, missing metrics, or anything needing logs/flares. Share privately for faster, personalized support.
