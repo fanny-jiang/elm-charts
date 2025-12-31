@@ -74,9 +74,9 @@ body:
       label: Environment
       description: Kubernetes version, cloud provider, Helm version, etc.
       value: |
-        **Kubernetes version: **
-        **Helm version: **
-        **Cloud provider: **
+        **Kubernetes version:** 
+        **Helm version:** 
+        **Cloud provider:** 
     validations:
       required: false
 
