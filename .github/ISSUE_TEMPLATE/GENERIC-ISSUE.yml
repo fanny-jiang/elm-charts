@@ -19,6 +19,7 @@ body:
     attributes:
       label: Helm chart name
       description: Name of the Helm chart affected by this bug
+      default: 1
       options:
         - cloudprem
         - datadog
