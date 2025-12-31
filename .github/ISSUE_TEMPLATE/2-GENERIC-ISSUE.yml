@@ -1,6 +1,6 @@
 ---
 name: Generic Issue
-description: "Choose this only if you can reproduce the issue in a clean, generic environment. If the issue requires extensive logs, flares, or debugging, please use the 'Support Request or Feature Request' option."
+description: "For clean, reproducible bugs only. Need to submit logs, require debugging help, or unsure? Choose 'Support Request' instead for faster resolution."
 title: "[BUG] "
 labels: bug,pending
 body:
@@ -9,7 +9,9 @@ body:
     attributes:
       label: Pre-submission Checklist
       options:
-        - label: I have searched existing issues and this is not a duplicate
+        - label: I have searched [existing issues](https://github.com/DataDog/helm-charts/issues) and this is not a duplicate
+          required: true
+        - label: This is a Helm chart issue, not a Datadog product/service problem
           required: true
 
   - type: input
