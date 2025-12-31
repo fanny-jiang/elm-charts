@@ -11,7 +11,7 @@ body:
       options:
         - label: I have searched [existing issues](https://github.com/DataDog/datadog-operator/issues) and this is not a duplicate
           required: true
-        - label: This is a Datadog Operator issue, not a Datadog product/service problem
+        - label: This is a Datadog Operator issue (CRDs, reconciliation, etc.), not a Datadog Agent or Datadog service problem (dashboards, monitors, etc.)
           required: true
 
   - type: input
@@ -52,7 +52,7 @@ body:
       label: Steps to Reproduce
       description: Help us reproduce the problem
       placeholder: |
-        1. Install the Operator with...
+        1. Install the Operator with `helm install ...`
         2. Configure the following values: ...
         3. Observe...
     validations:
