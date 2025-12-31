@@ -1,5 +1,5 @@
 ---
-name: Generic Issue
+name: Generic Issue [Datadog Operator]
 description: "For clean, reproducible bugs only. Need to submit logs, require debugging help, or unsure? Choose 'Support Request' instead for faster resolution."
 title: "[BUG] "
 labels: bug,pending
