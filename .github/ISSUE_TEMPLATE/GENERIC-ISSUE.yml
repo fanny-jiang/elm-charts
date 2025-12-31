@@ -14,12 +14,21 @@ body:
         - label: This is a Helm chart issue, not a Datadog product/service problem
           required: true
 
-  - type: input
+  - type: dropdown
     id: chart-name
     attributes:
       label: Helm chart name
       description: Name of the Helm chart affected by this bug
-      placeholder: "e.g., datadog"
+      options:
+        - cloudprem
+        - datadog
+        - datadog-crds
+        - datadog-csi-driver
+        - datadog-operator
+        - extended-daemon-set
+        - observability-pipelines-worker
+        - private-action-runner
+        - synthetics-private-location
     validations:
       required: true
 
